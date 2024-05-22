@@ -1,0 +1,5 @@
+km = float(input('Kilometros percorrido KM: '))
+dia = int(input('Dias utilizado: '))
+diaria = (dia * 60) + (km * 0.15)
+print('você utilizou {} dias e rodou {}Km'.format(dia, km))
+print('O valor a pagar é R${:.2f}'.format(diaria))
