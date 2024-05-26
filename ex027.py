@@ -1,5 +1,5 @@
-nome = str(input('Digite seu nome completo: ')).strip()
+nome = str(input('Digite seu nome completo: ')).strip().title()
 print('Muito prazer em te conhecer!')
 fatia = nome.split()
-print('Seu primeiro nome é {}'.format(fatia[0]))
-print('Seu último nome é {}'.format(fatia[len(fatia)-1]))
+print('Seu primeiro nome é \033[34m{}\033[m'.format(fatia[0]))
+print('Seu último nome é \033[35m{}\033[m'.format(fatia[len(fatia)-1]))
