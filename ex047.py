@@ -1,3 +1,3 @@
-for c in range(1, 50, 2):
-    if c != 1:
-     print(c)
+for c in range(2, 50, 2):
+     print(c, end=' ')
+print('Fim')
