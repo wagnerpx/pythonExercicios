@@ -20,28 +20,28 @@ print(emoji.emojize(f'O jogador jogou {itens[jogador]}'))
 print('-=' * 14)
 if computador == 0:
     if jogador == 0:
-        print('EMPATE')
+        print('\033[33mEMPATE\033[m')
     elif jogador == 1:
-        print('JOGADOR VENCEU')
+        print('\033[34mJOGADOR VENCEU\033[m')
     elif jogador == 2:
-        print('COMPUTADOR VENCEU')
+        print('\033[31mCOMPUTADOR VENCEU\033[m')
     else:
         print('JOGADA INVÁLIDA!')
 elif computador == 1:
     if jogador == 0:
-        print('COMPUTADOR VENCEU')
+        print('\033[31mCOMPUTADOR VENCEU\033[m')
     elif jogador == 1:
-        print('EMPATE')
+        print('\033[33mEMPATE\033[m')
     elif jogador == 2:
-        print('JOGADOR VENCEU')
+        print('\033[34mJOGADOR VENCEU\033[m')
     else:
         print('JOGADA INVÁLIDA!')
 elif computador == 2:
     if jogador == 0:
-        print('JOGADOR VENCEU')
+        print('\033[34mJOGADOR VENCEU\033[m')
     elif jogador == 1:
-        print('COMPUTADOR VENCEU')
+        print('\033[31mCOMPUTADOR VENCEU\033[m')
     elif jogador == 2:
-        print('EMPATE')
+        print('\033[33mEMPATE\033[m')
     else:
         print('JOGADA INVÁLIDA!')
