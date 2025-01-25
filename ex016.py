@@ -1,6 +1,9 @@
-# from math import trunc
-# num = float(input('Digite um valor: '))
-# print('O valor digitado foi {} e a sua porção inteira é {}'.format(num, trunc(num)))
+"""Utilizando o "from" vc importar apenas uma funcionalidade da biblioteca "math"
+nesse exercício estou utilizando apenas o "trunc\""""
 
+from math import trunc
 num = float(input('Digite um valor: '))
-print('O valor digitado foi {} e a sua porção inteira é {}'.format(num, int(num)))
+print(f'O valor digitado foi {num} e a sua porção inteira é {trunc(num)}')
+
+# num = float(input('Digite um valor: '))
+# print(f'O valor digitado foi {num} e a sua porção inteira é {int(num)}')
