@@ -5,4 +5,4 @@ n3 = input('Terceiro aluno: ')
 n4 = input('Quarto aluno: ')
 lista = [n1, n2, n3, n4]
 esclhido = choice(lista)
-print('O aluno escolhido foi :{}'.format(esclhido))
+print(f'O(a) aluno(a) escolhido(a) foi :{esclhido}')

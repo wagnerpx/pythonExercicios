@@ -1,5 +1,5 @@
 dist = float(input('Distancia em metros: '))
-print('Convertendo {:=^20}'.format(dist))
+print(f'Convertendo { dist :_^15}')
 print('|', (dist / 1000), 'Km')
 print('|', (dist / 100), 'Hm')
 print('|', (dist / 10), 'Dam')
