@@ -1,6 +1,6 @@
 nome = str(input('Digite o seu nome completo: ')).strip()
 print('Seu nome em maiúsculas é', nome.upper())
 print('Seu nome em minúsculas é', nome.lower())
-print('Seu nome completo tem {} letras'.format(len(nome) - nome.count(' ')))
+print(f'Seu nome completo tem {(len(nome) - nome.count(" "))} letras')
 sepa_nome = nome.split()
-print('Primeiro nome {} e tem {} letras.'.format(sepa_nome[0], len(sepa_nome[0])))
+print(f'Primeiro nome é {sepa_nome[0]} e tem {len(sepa_nome[0])} letras.')
